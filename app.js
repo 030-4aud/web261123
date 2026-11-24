@@ -67,7 +67,7 @@ function renderCards(list) {
     }
     if (list.length === 0) { board.classList.add("is-empty"); } else { board.classList.remove("is-empty"); }
     document.getElementById("count").textContent = list.length + "편";
-    updateLikeCount;
+    updateLikeCount();
 }
 
 function sortBy(list, key, desc) {
